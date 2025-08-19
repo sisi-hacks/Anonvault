@@ -1,0 +1,15 @@
+# General
+node_modules/
+.DS_Store
+
+# Contracts (Hardhat)
+contracts/node_modules/
+contracts/cache/
+contracts/artifacts/
+contracts/.env
+
+# Frontend (Next.js)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
