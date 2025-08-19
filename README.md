@@ -1,4 +1,4 @@
-# eERC20 Privacy Donations MVP (Avalanche Fuji)
+# eERC20 Privacy Donations
 
 Minimal hackathon scaffold demonstrating a privacy-preserving donation/payment flow using a mock Encrypted ERC-20 (eERC20) on Avalanche Fuji testnet.
 
@@ -8,7 +8,7 @@ This repo contains:
 
 Note: This is a demo. No real cryptography. Amounts are hidden from events and UI without a viewing key, but stored plainly on-chain.
 
-## MVP Goals
+## Goals
 1. Deposit ERC20 → mint eERC20 (1:1)
 2. Private transfer of eERC20 between wallets (amount hidden in events)
 3. Recipient inbox to view received funds
