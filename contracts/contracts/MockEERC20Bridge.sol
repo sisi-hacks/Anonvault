@@ -11,7 +11,7 @@ import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
  * - withdraw: burn mock-private balance and release public ERC20
  * - exportViewingKey: allow users to set/get a viewing key string (simulating selective disclosure)
  *
- * This is NOT secure. It's only for hackathon demo purposes.
+ * This is NOT secure. It's only for demo purpose only.
  */
 contract MockEERC20Bridge is Ownable {
     IERC20 public immutable token;
